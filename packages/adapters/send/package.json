@@ -1,6 +1,7 @@
 {
   "name": "@partylayer/adapter-send",
-  "version": "1.0.3",
+  "version": "1.2.11",
+  "sideEffects": false,
   "description": "Send Canton Wallet adapter for PartyLayer (CIP-0103, passkey-based via Sigilry)",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -45,7 +46,8 @@
     "url": "https://github.com/PartyLayer/PartyLayer/issues"
   },
   "dependencies": {
-    "@partylayer/core": "workspace:^"
+    "@partylayer/core": "workspace:^",
+    "@partylayer/provider": "workspace:^"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
